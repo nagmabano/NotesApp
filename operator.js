@@ -1,5 +1,4 @@
-const product = function(a, b) {
-    return a*b
-}
-
-module.exports = product
+// const product = function(a, b) {
+//     return a*b
+// }
+// module.exports = product
