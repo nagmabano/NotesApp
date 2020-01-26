@@ -1,3 +1,3 @@
-const name = require('./utils.js')
+const firstName = require('./utils.js')
 
-console.log(name);
+console.log(firstName);
