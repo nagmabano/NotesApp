@@ -2,4 +2,8 @@ console.log('In utils.js');
 
 const name = 'Nagma'
 
-module.exports = name
+const add = function(a, b) {
+    return a + b
+}
+
+module.exports = add
