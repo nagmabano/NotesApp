@@ -1,3 +1,4 @@
-const fs = require('fs')
+require('./utils.js')
 
-fs.writeFileSync('notes.txt','overriding')
+const name = 'Nagma'
+console.log(name);
