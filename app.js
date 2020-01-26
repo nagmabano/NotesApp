@@ -1,11 +1,6 @@
-// const add = require('./utils.js')
-// const multiply = require('./operator')
-// const sum = add(4,-3)
-// const product = multiply(4,3)
-// console.log(sum);
-// console.log(product);
+const getNotes = require('./notes.js')
 
-const notes = require('./notes.js')
-const myNote = notes()
-console.log(myNote);
+const msg = getNotes()
+
+console.log(msg);
 
